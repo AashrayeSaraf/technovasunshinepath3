@@ -49,7 +49,7 @@ function checkAnswer() {
     .getAttribute("data-correct-answers")
     .split(",");
   if (correctAnswers.includes(userAnswer)) {
-    document.getElementById("feedback").textContent = "Correct!";
+    document.getElementById("feedback").textContent = "Correct! Your next riddle is: \n Our whole univerisrty is based upon my name, \n You can find me where the most important person of this unviersity is, \n Come find me and scan the code for your next clue.";
   } else {
     document.getElementById("feedback").textContent = "Incorrect. Try again.";
   }
