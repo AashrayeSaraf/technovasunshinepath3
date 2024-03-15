@@ -14,7 +14,11 @@ function checkGuess() {
   } else {
     guesses++;
     if (guess === number) {
-      output = `Congratulations! You guessed the number ${number} in ${guesses} attempts.`;
+      output = `Congratulations! You guessed the number. Here is your riddle:
+      Where hunger strikes, and friendships bloom,
+      A spot to dine, in the university's room.
+      At DCRUST's heart, where flavors are renowned,
+      This canteen oasis can be found.`;
     } else if (guess > number) {
       output = "Too high. Try again.";
     } else {
