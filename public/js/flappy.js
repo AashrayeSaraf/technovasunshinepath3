@@ -154,7 +154,7 @@ const render = () => {
     // text accueil
     ctx.fillText(`Best score : ${bestScore}`, 85, 245);
     ctx.fillText("Click to play", 90, 535);
-    tx.fillText("Score 5 to get the riddle!", 60, 635);
+    ctx.fillText("Score 5 to get the riddle!", 60, 635);
     ctx.font = "bold 30px courier";
   }
 
