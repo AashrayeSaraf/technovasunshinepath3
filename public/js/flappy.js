@@ -153,7 +153,7 @@ const render = () => {
     flyHeight = canvas.height / 2 - size[1] / 2;
     // text accueil
     ctx.fillText(`Best score : ${bestScore}`, 85, 245);
-    ctx.fillText("Click to play", 90, 535);
+    ctx.fillText("Click to play \n Score 5 to get the riddle!", 90, 535);
     ctx.font = "bold 30px courier";
   }
 
@@ -166,11 +166,11 @@ const render = () => {
   window.requestAnimationFrame(render);
 
   // Check if the current score equals 10
-  if (currentScore === 3) {
+  if (currentScore === 5) {
     // Stop the game when the score reaches 10
     gamePlaying = false;
     // Display an alert when the score reaches 10
-    alert("Your riddle is.......");
+    alert("Your riddle is \n Behind the Audi, where artists prepare, \n A haven for creativity, beyond compare. \n At DCRUST's heart, where performances resound, \n This exclusive spot can be found.");
   }
 };
 
