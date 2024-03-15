@@ -22,9 +22,6 @@ app.get("/guess", (req, res) => {
 app.get("/num", (req, res) => {
   res.render("num.ejs");
 });
-app.get("/puzzle", (req, res) => {
-  res.render("puzzle.ejs");
-});
 app.get("/jumble", (req, res) => {
   res.render("jumble.ejs");
 });
