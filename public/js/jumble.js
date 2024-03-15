@@ -118,7 +118,7 @@ const initTimer = (maxTime) => {
       timeText.innerText = maxTime;
     } else {
       clearInterval(timer);
-      alert(`Time off! ${correctWord.toUpperCase()} was the correct word`);
+      alert(`Time's up! ${correctWord.toUpperCase()} was the correct word`);
       redirectToAnotherPage();
     }
   }, 1000);
