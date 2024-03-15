@@ -22,6 +22,15 @@ app.get("/guess", (req, res) => {
 app.get("/num", (req, res) => {
   res.render("num.ejs");
 });
+app.get("/puzzle", (req, res) => {
+  res.render("puzzle.ejs");
+});
+app.get("/jumble", (req, res) => {
+  res.render("jumble.ejs");
+});
+app.get("/pic", (req, res) => {
+  res.render("pic.ejs");
+});
 
 app.listen(port, () => {
   console.log("Server running on port 8080");
