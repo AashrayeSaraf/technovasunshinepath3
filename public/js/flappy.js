@@ -36,12 +36,8 @@ const setup = () => {
   pipes = Array(3)
     .fill()
     .map((a, i) => [canvas.width + i * (pipeGap + pipeWidth), pipeLoc()]);
-
-  // Set interval to increment index
-  setInterval(() => {
-    index++;
-  }, 1000 / 60); // Assuming 60 frames per second
 };
+
 
 const render = () => {
   // make the pipe and bird moving
